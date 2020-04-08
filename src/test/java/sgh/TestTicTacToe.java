@@ -13,7 +13,7 @@ public class TestTicTacToe {
     Map<String, TicTacToe.Result> mapResults = new HashMap<>();
 
     @Test
-    public void testTicTacToe()
+    public void testTicTacToe() throws IOException
     {
         mapResults.put("boards/tick0.csv", TicTacToe.Result.O_WON);
         mapResults.put("boards/tick1.csv", TicTacToe.Result.X_WON);
